@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Nicky Hello</title>
+  <!-- <link rel="stylesheet" type="text/css" href="reset.css" /> -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- <link type="text/javascript" rel="stylesheet" href="login.js"> -->
+  <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+ 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<!-- Tư duy để làm một trang web
+ + Từ ngoài vào trong
+ + Từ trên xuống dưới
+ + Tổng quan đến chi tiết
+-->
+
+<!-- Cách triển khai trang web 
+1. Vị trí
+2. Kích Thước(width, height)
+3. Màu Sắc
+4. Kiểu dáng (kiểu chử, hình tròn, vuông....) 
+
+-->
+
+<body>
+  
+    
+<!--Sign up-->
+
+    <!-- <section class="overlay">
+			<h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="submission.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<!Add the pattern attribute to the input below-->
+				<!-- <input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section> -->
+
+
+<!-- ------------------------------------------ -->
+
+<!--FlexBox-->
+
+<!-- <header>
+  <div class="header">
+    <div class="container">
+      <ul>
+        <li><a href="3">About</a></li>
+        <li><a href="#expertise">Our Services</a></li>
+        <li><a href="3">Our Team</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="main">
+    <div class="spacer">
+      <div class="cards">
+        <div class="col">
+          <img src="https://content.codecademy.com/projects/headlines/p1.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p6.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p8.jpg">
+        </div>
+        <div class="col">
+          <img src="https://content.codecademy.com/projects/headlines/p2.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p5.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p7.jpg">
+        </div>
+        <div class="col">
+          <img src="https://content.codecademy.com/projects/headlines/p3.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p4.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p9.jpg">
+          <img src="https://content.codecademy.com/projects/headlines/p10.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h3>Headlines.</h3>
+  <p>1000 7th Avenue</p>
+  <p>New York, NY</p>
+  <p>(484) 192 - 8372</p>
+</div> -->
+
+
+<!-- ----------------------------------------- -->
+
+<!--Store Food-->
+
+<!-- <div class="container">
+
+  <header>
+    <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+  </header>
+
+  <main>
+    <div class="recipe a">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
+      <h2>CHOCOLATE MOUSSE</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">20 mins</p>
+      <p class="description">
+        This delicious chocolate mousse will delight dinner guests of all ages!</p>
+    </div>
+    <div class="recipe b">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-2.png" />
+      <h2>SMOKED LAMB WITH RICE</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">120 mins</p>
+      <p class="description">
+        Want to feel like your favorite relative came over and made you dinner? This comfort meal of smoked lamb and rice will quickly become a weekend favorite!
+      </p>
+    </div>
+    <div class="recipe c">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-5.png" />
+      <h2>GOAT CHEESE SALAD</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">25 mins</p>
+      <p class="description">
+        In addition to the full flavor of goat cheese, this salad includes kale, avocado, and farro to balance it out.</p>
+    </div>
+    <div class="recipe d">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-4.png" />
+      <h2>CHICKEN SANDWICH</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">45 mins</p>
+      <p class="description">
+        We've packed a lot into this one - shredded cabbage, carmalized onions, deep-fried chicken, chipotle mayo, half-sour pickles, and a toasted sesame bun will leave you thoroughly satisfied!</p>
+    </div>
+    <div class="recipe e">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+      <h2>SWEET CHURROS</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">90 mins</p>
+      <p class="description">
+        Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+    </div>
+    <div class="recipe f">
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+      <h2>BERRY PARFAIT</h2>
+      <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+      <p class="mins">10 mins</p>
+      <p class="description">
+        This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+    </div>
+  </main>
+
+  <footer>
+    <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+  </footer>
+
+</div> -->
+
+
+<!-- ------------------------------------------- -->
+
+
+
+
+<!-- Start -->
+
+
+
+<main>
+
+<!-- Start Header -->
+<div id="header">
+   <div class="nav__pc">
+    <ul class="nav__list">
+    <!-- Begin Nav -->
+  <div id="nav">
+      <!-- <li>
+        <a>
+          <img class="LOGO2" src="https://tse1.mm.bing.net/th?id=OIP.YUu462POA5UD2hICuoVJdQHaHa&pid=Api&P=0&w=184&h=184">
+        </a>
+      </li> -->
+      <li>
+       <a href="#">
+         <i class="ti-home"></i>
+       </a>
+     </li>
+      <li>
+
+        <a href="">
+          Play 
+          <i class="nav-arrow-down  ti-angle-down"></i>
+        </a>
+        
+       
+        <ul class="subnav">
+          <li class="js-PlayMemori playMemo">
+            <a>Memorization/Game</a>
+          </li>
+          <li class="playQuick js-PlayQuick">
+            <a>Quick/Guessing/Game</a>
+          </li>
+        </ul>
+
+
+      </li>
+
+      <li class="login js-login">
+           <a class="loginbuttom ">Login</a>
+      </li>
+  </div>
+  <!-- End Nav -->
+    </ul>
+    
+  <!-- Begin Serach -->
+   <div class="search-btn js-search"> 
+    <i class="search-icon  ti-search"></i>
+  </div> 
+  <!-- End Search -->
+  </div> 
+
+
+   <label for="nav-mobile-input" class="nav__bars-btn">
+    <svg
+     xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 448 512">
+     <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/>
+    </svg>
+  </label>
+
+  <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+  <label  for="nav-mobile-input" class="nav__overlay"></label>
+  
+  <div class="nav__mobile">
+    <label for="nav-mobile-input" class="nav__mobile-close">
+      <i class="ti-close"></i>
+    </label>
+    <ul class="nav__mobile-list">
+      <div id="nav1">
+      <li>
+        <a class="nav__mobile-link" href="">
+          <i class="ti-home"></i>
+          Home
+        </a>
+      </li>
+      <li>
+          <a class="nav__mobile-link" href="">
+            <i class="ti-world"></i>
+            About
+          </a>
+      </li>
+      <li>
+        <a class="nav__mobile-link" href="">
+          <i class="ti-light-bulb"></i>
+          Interesting Knowledge
+        </a>
+      </li>
+    
+    </div>
+    </ul>
+  </div>
+
+</div>
+<!-- End Header -->
+
+
+
+
+<!-- list Picture -->
+<!-- picture 1: 
+    https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 -->
+<!-- picture 2: 
+     https://images.pexels.com/photos/534757/pexels-photo-534757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940  -->
+<!-- picture 3:
+     https://images.pexels.com/photos/2093323/pexels-photo-2093323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 -->
+<!-- picture 4:
+    https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 -->
+<!-- picture -->
+
+
+
+
+<!-- Start Slider -->
+<div id="slider">
+  <div class="container spacing"> 
+    <h2 class="record-label-title">Beautiful Countries</h2>
+    <h3 class="h3">Welcome To Beautiful Countries</h3>
+    <a href="#One-artist-anchor" class="btn">ASIA</a>
+    <a href="#Two-release-anchor" class="btn">AFRICA</a>
+    <a href="#Three-artist-anchor" class="btn">SOUTH AMERICA </a>
+    <a href="#Four-artist-anchor" class="btn">AUSTRALIA</a>
+    <a href="#Five-artist-anchor" class="btn">EUROPE</a>
+    <a href="#Six-artist-anchor" class="btn">NORTH AMERICA </a>
+
+  </div>
+</div>
+<!-- Start Slider -->
+
+
+<!-- Start Modal PlayMemori -->
+<div class="modalPlayMemori js-modalPlayMemori">
+  <div class="modalPlayMemori-container  js-modalContainerPlayMemori">
+
+    <div class="">
+      <i class="modalPlayMemori-close ti-close js-modalPlayMemori-close"></i>
+    </div>
+
+    <div class="modalPlayMemori-header">
+      <i class="ti-time "></i>
+      Memorization Game
+    </div>
+
+    <div class="modalPlayMemori-body">
+      <div class="box-scroll">
+      <fieldset>
+        <legend>Question 1: What country is this?</legend>
+        <img class="addpicture" src="https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cmsfeatured/scenic-view-of-islands-in-halong-bay-1524653397-785X440.jpg">
+        <img class="addpicture" src="https://steemitimages.com/DQmXphPJLXPZs9wPrBGM1FCoJcKzS7do7Tp8NwnzZG9vEJ8/ban-do-viet-nam-vector-2222.jpg">
+        <img class="imgquestion1" src="https://tse3.mm.bing.net/th?id=OIP.995hq_nN327XEAts7GqG-QAAAA&pid=Api&P=0&w=259&h=168" alt="VietNam" class="featured-img">
+        <input class="input1" id="vietnam" type="radio" name="levels" value="vietmam">
+        <label for="vietnam">VietNam</label><br>
+        <input class="input1" id="china" type="radio" name="levels" value="china">
+        <label for="china">China</label><br>
+        <input class="input1" id="singapo" type="radio" name="levels" value="singapo">
+        <label for="singapo">Singapore</label>
+      </fieldset>
+      <fieldset>
+        <legend>Question 2: What country is this?</legend>
+        <img class="addpicture" src="https://static.vecteezy.com/system/resources/previews/000/162/060/non_2x/free-mongol-vector-icons.jpg">
+        <img class="addpicture" src="https://cdn3.vectorstock.com/i/1000x1000/28/07/mongolia-vector-21242807.jpg">
+        <img class="imgquestion1" src="https://tse4.mm.bing.net/th?id=OIP.HqNIlRkY0vJC-VetXxZT_AHaE8&pid=Api&P=0&w=263&h=175" alt="VietNam" class="featured-img">
+        <input class="input1" id="yemen" type="radio" name="levels" value="yemen">
+        <label for="yemen">Yemen</label><br>
+        <input class="input1" id="cambodia" type="radio" name="levels" value="cambodia">
+        <label for="cambodia">Cambodia</label><br>
+        <input class="input1" id="mongolia" type="radio" name="levels" value="mongolia">
+        <label for="mongolia">Mongolia</label>
+      </fieldset>
+      <fieldset>
+        <legend>Question 3: What country is this?</legend>
+        <img class="addpicture" src="https://media.istockphoto.com/vectors/black-silhouette-country-borders-map-of-brazil-on-white-background-of-vector-id908220322?k=6&m=908220322&s=170667a&w=0&h=q2n_oBGubodX46LYpZilUghe_011aOjA4a-8lPt3LHI=">
+        <img class="addpicture" src="http://static.vecteezy.com/system/resources/previews/000/107/616/original/brazil-vector-collection.jpg">
+        <img class="imgquestion1" src="https://tse3.explicit.bing.net/th?id=OIP.gj9OwNDVYgTDzajqiy6i6gHaFG&pid=Api&P=0&w=255&h=176" alt="Brazil" class="featured-img">
+        <input class="input1" id="switzerland" type="radio" name="levels" value="switzerland">
+        <label for="switzerland">Switzerland</label><br>
+        <input class="input1" id="brazil" type="radio" name="levels" value="brazil">
+        <label for="brazil">Brazil</label><br>
+        <input class="input1" id="norway" type="radio" name="levels" value="norway">
+        <label for="norway">Norway</label>
+      </fieldset>
+      <fieldset>
+       <legend>Question 4: What country is this?</legend>
+        <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/188px-Flag_of_Peru.svg.png" alt="Peru" class="featured-img">
+        <img class="addpicture2" src="https://assets-global.website-files.com/56e9debf633486e330198479/5add1c4bfcceb9deead10662_machu-picchu.JPG">
+        <img class="addpicture1" src="https://tse3.mm.bing.net/th?id=OIP.Xrgfi8v14FVhPRiEmz02tAHaFj&pid=Api&P=0&w=193&h=144">
+        <input class="input1" id="georgia" type="radio" name="levels" value="georgia">
+        <label for="georgia">Georgia</label><br>
+        <input class="input1" id="peru" type="radio" name="levels" value="peru">
+        <label for="peru">Peru</label><br>
+        <input class="input1" id="nepal" type="radio" name="levels" value="nepal">
+        <label for="nepal">Nepal</label>
+    </fieldset>
+    <fieldset>
+      <legend>Question 5: What country is this?</legend>
+       <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/188px-Flag_of_Canada_%28Pantone%29.svg.png" alt="Canada" class="featured-img">
+       <img class="addpicture1-1" src="https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Canada-Toronto_1388944829-1440x823.jpg">
+       <img class="addpicture2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/330px-CAN_orthographic.svg.png">
+       <input class="input1" id="thailand" type="radio" name="levels" value="thailand">
+       <label for="thailand">Thailand</label><br>
+       <input class="input1" id="canada" type="radio" name="levels" value="canada">
+       <label for="canada">Canada</label><br>
+       <input class="input1" id="kuwait" type="radio" name="levels" value="kuwait">
+       <label for="kuwait">Kuwait</label>
+   </fieldset>
+   <fieldset>
+     <legend>Question 6: What country is this?</legend>
+     <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/188px-Flag_of_Colombia.svg.png" alt="Canada" class="featured-img">
+       <img class="addpicture1-1" src="https://tse4.mm.bing.net/th?id=OIP.lX1vMO2um29nbvudWxR-vwHaD4&pid=Api&P=0&w=313&h=164">
+       <img class="addpicture2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg/375px-COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg.png">
+       <input class="input1" id="ecuador" type="radio" name="levels" value="ecuador">
+       <label for="ecuador">Ecuador</label><br>
+       <input class="input1" id="colombia" type="radio" name="levels" value="colombia">
+       <label for="colombia">Colombia</label><br>
+       <input class="input1" id="paraguay" type="radio" name="levels" value="paraguay">
+       <label for="paraguay">Paraguay</label>
+   </fieldset>
+   <fieldset>
+    <legend>Question 7: What country is this?</legend>
+    <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/188px-Flag_of_Somalia.svg.png" alt="Canada" class="featured-img">
+      <img class="addpicture1-1" src="https://media.npr.org/assets/img/2010/10/04/twoway%20front%20line%201_wide-1fa5938f4b851992edb45211138949b5b8a56d06.jpg?s=1400">
+      <img class="addpicture2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Somalia_%28orthographic_projection%29.svg/375px-Somalia_%28orthographic_projection%29.svg.png">
+      <input class="input1" id="somalia" type="radio" name="levels" value="somalia">
+      <label for="somalia">Somalia</label><br>
+      <input class="input1" id="angola" type="radio" name="levels" value="angola">
+      <label for="angola">Angola</label><br>
+      <input class="input1" id="bolivia" type="radio" name="levels" value="bolivia">
+      <label for="bolivia">Bolivia</label>
+  </fieldset>
+  <fieldset>
+    <legend>Question 8: What country is this?</legend>
+    <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/188px-Flag_of_Serbia.svg.png" alt="Canada" class="featured-img">
+      <img class="addpicture1-1" src="https://emerging-europe.com/wp-content/uploads/2019/08/bigstock-belgrade-serbia-september-285437977-1024x682.jpg">
+      <img class="addpicture2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Serbia_%28orthographic_projection%29.svg/330px-Serbia_%28orthographic_projection%29.svg.png">
+      <input class="input1" id="belarus" type="radio" name="levels" value="belarus">
+      <label for="belarus">Belarus</label><br>
+      <input class="input1" id="serbia" type="radio" name="levels" value="serbia">
+      <label for="serbia">Serbia</label><br>
+      <input class="input1" id="zambia" type="radio" name="levels" value="zambia">
+      <label for="zambia">Zambia</label>
+  </fieldset>
+  <fieldset>
+    <legend>Question 9: What country is this?</legend>
+    <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/188px-Flag_of_Scotland.svg.png" alt="Canada" class="featured-img">
+      <img class="addpicture1-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Scotland_in_the_UK_and_Europe.svg/375px-Scotland_in_the_UK_and_Europe.svg.png">
+      <img class="addpicture2" src="https://www.gannett-cdn.com/presto/2019/06/12/USAT/4918ab6b-24ce-4547-95fb-7ebcfef2fdc5-GettyImages-487468165.jpg?crop=2118,1187,x0,y0&width=2118&height=1187&format=pjpg&auto=webp">
+      <input class="input1" id="scotland" type="radio" name="levels" value="scotland">
+      <label for="scotland">Scotland</label><br>
+      <input class="input1" id="greece" type="radio" name="levels" value="greece">
+      <label for="greece">Greece</label><br>
+      <input class="input1" id="portugal" type="radio" name="levels" value="portugal">
+      <label for="portugal">Portugal</label>
+  </fieldset>
+  <fieldset>
+    <legend>Question 10: What country is this?</legend>
+    <img class="imgquestion1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/188px-Flag_of_Latvia.svg.png" alt="Canada" class="featured-img">
+      <img class="addpicture1-1" src="https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/11/07120208/shutterstock_425887390.jpg">
+      <img class="addpicture2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/375px-EU-Latvia.svg.png">
+      <input class="input1" id="jamaica" type="radio" name="levels" value="jamaica">
+      <label for="jamaica">Jamaica</label><br>
+      <input class="input1" id="guatemala" type="radio" name="levels" value="guatemala">
+      <label for="guatemala">Guatemala</label><br>
+      <input class="input1" id="latvia" type="radio" name="levels" value="latvia">
+      <label for="latvia">Latvia</label>
+  </fieldset>
+      </div>
+    </div>
+
+    <button id="Final">Final</button>
+    
+  </div>
+</div>
+<!-- End Modal PlayMemori -->
+
+
+<!-- Start Modal Quick/Guessing/Game -->
+  <div class="modalPlayQuick"></div>
+<!-- End Modal  Quick/Guessing/Game-->
+
+
+<!-- Start Modal Login -->
+<div class="modal js-modal">
+  <div class="modal-container js-modal-container">
+
+    <div class="">
+      <i class="modal-close ti-close js-modal-close"></i>
+    </div>
+
+    <div class="modal-header">
+     Login your account
+    </div>
+
+    <div class="modal-body">
+      <label for="quantity" class="modal-label">
+        <i class="ti-user"></i>
+        UserName
+      </label>
+      <input id="quantity" type="email" class="modal-input" placeholder="Enter Email Here" >
+
+
+      <label for="idpassword" class="modal-label">
+        <i class="ti-lock"></i>
+        Password
+      </label>
+      <input id="idpassword" type="password" class="modal-input" placeholder="Enter Password Here" >
+      <svg 
+        class="eye eye-open" 
+        fill="none" 
+        stroke="currentColor" 
+        viewBox="0 0 24 24" 
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+      </svg>
+
+      <svg 
+        class="eye eye-close hidden" 
+        fill="none" 
+        stroke="currentColor" 
+        viewBox="0 0 24 24" 
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"></path>
+      </svg>
+
+      <button id="Login-end">Login</button>
+    </div>
+
+    <footer class="modal-footer">
+      <p class="DK js-sigin">Register</p>
+      <p class="modal-help">Need <a href="">help?</a></p>
+    </footer>
+  </div>
+</div>
+<!-- End Modal Login -->
+
+
+
+<!-- Start Modal Đăng Ký -->
+<div class="modalDK js-modalDK">
+  <div class="modalDK-container js-modalDK-container">
+
+    <div class="">
+      <i class="modal-close ti-close js-modalDK-close"></i>
+    </div>
+
+    <div class="modalDK-header">
+      Register new account
+    </div>
+
+    <div class="modalDK-body">
+      <label for="username" class="modalDK-label">
+        <i class="ti-user"></i>
+        UserName
+      </label>
+      <input id="username" type="text" class="modalDK-input" placeholder="User name" >
+
+
+      <label for="email" class="modalDK-label">
+        <i class="ti-email"></i>
+        Email
+      </label>
+      <input id="email" type="text" class="modalDK-input" placeholder="Enter Email Here" >
+    
+      
+      <label for="password" class="modalDK-label">
+        <i class="ti-lock"></i>
+       Password
+      </label>
+      <input id="password" type="password" class="modalDK-input" placeholder="Enter Password Here" >
+     
+     
+      <button id="Sign-end">Register</button>
+
+    </div>
+  </div>
+</div>
+<!-- End Modal Đăng Ký-->
+
+
+
+<!-- Start Modal Search -->
+<div class="modalTK js-modalTK">
+  <div class="modalTK-container  js-modalTK-container">
+    <div class="">
+      <i class="modalTK-close ti-close js-modalTK-close"></i>
+    </div>
+
+    <div class="modalTK-header">
+      Find Here
+    </div>
+
+    <div class="modalTK-body">
+      <label for="" class="modalTK-label">
+      </label>
+      <input type="email" class="modalTK-input" placeholder="Search Here..." >
+    </div>
+  </div>
+</div>
+<!-- End Modal Search -->
+
+
+
+
+<!-- Start JavaScript Sự kiện Memorization Game -->
+<script>
+  const playMemo = document.querySelector('.js-PlayMemori');
+  const modalPlayMemori = document.querySelector('.js-modalPlayMemori');
+  const modalClosePlayMemori = document.querySelector('.js-modalPlayMemori-close');
+  const modalContainerPLayMemori = document.querySelector('.js-modalContainerPlayMemori');
+  //Hàm hiển thị modal MemoriGame (Thêm Class open vào modalMemoriGame)
+  function showPlayMemo() {
+    modalPlayMemori.classList.add('open');
+  }
+  //Hàm ẩn hiện modalMemoriGame (gở bỏ class open của modalMemoriGame)
+  function hidePlayMemo() {
+    modalPlayMemori.classList.remove('open');
+  }
+  // Lắng Nghe thành vi click vào Memorization/Game
+  playMemo.addEventListener('click', showPlayMemo)
+  // Nghe hành vi click vào close 
+  modalClosePlayMemori.addEventListener('click', hidePlayMemo);
+  
+  modalPlayMemori.addEventListener('click', hidePlayMemo)
+  
+  modalContainerPLayMemori.addEventListener('click', function (event) {
+    event.stopPropagation();
+  })
+  
+</script>
+<!-- End JavaScript Sự kiện Memorization Game -->
+
+
+
+
+<!-- Start JavaScript Sự kiện Login -->
+<script >
+  const logIn = document.querySelector('.js-login');
+  const modal = document.querySelector('.js-modal');
+  const modalClose = document.querySelector('.js-modal-close')
+  const modalContainer = document.querySelector('.js-modal-container')
+  // Hàm hiển thị modal login (thêm class open vào modal)
+  function showLogIn() {
+    modal.classList.add('open');
+  }
+  // Hàm ẩn modal login (gở bỏ class open của modal)
+  function hideLogIn() {
+    modal.classList.remove('open');
+  }
+  // Lắng nghe hành vi click
+  logIn.addEventListener('click', showLogIn)
+  // Nghe hành vi click vào login close
+  modalClose.addEventListener('click', hideLogIn)
+
+  modal.addEventListener('click', hideLogIn)
+
+  modalContainer.addEventListener('click', function (event) {
+    event.stopPropagation()
+  })
+</script>
+ <!-- End JavaScript Sự kiện Login -->
+
+
+
+ <!-- Start Sự kiện JavScript Đăng ký -->
+ <script >
+ const sigIn = document.querySelector('.js-sigin');
+ const modalDK = document.querySelector('.js-modalDK');
+ const modalCloseDK = document.querySelector('.js-modalDK-close');
+ const modalContainerDK = document.querySelector('.js-modalDK-container');
+ // Hàm hiển thị modal Sigin (Thêm class open vào modalDk)
+ function showSigIn() {
+   modalDK.classList.add('open');
+ }
+ // Hàm ẩn modal Sigin (gở bỏ class open của modalDK)
+ function hideSigIn() {
+   modalDK.classList.remove('open');
+ } 
+ // Lắng nghe hành vi click
+ sigIn.addEventListener('click', showSigIn);
+ // Nghe hành vi click vào Sigin close
+ modalCloseDK.addEventListener('click', hideSigIn)
+
+ modalDK.addEventListener('click', hideSigIn)
+
+ modalContainerDK.addEventListener('click', function (event) {
+   event.stopPropagation()
+ })
+</script>
+ <!-- End Sự kiện JavaScript Đăng ký  -->
+
+
+
+<!-- Start Sự Kiện JavaScript Tìm Kiếm -->
+<script>
+  const searchTK = document.querySelector('.js-search');
+  const modalTK = document.querySelector('.js-modalTK');
+  const modalCloseTK = document.querySelector('.js-modalTK-close');
+  const modalContainerTK = document.querySelector('.js-modalTK-container');
+  // Hàm hiển thị modal Search (Thêm class open vào modalTK)
+  function showSearch() {
+    modalTK.classList.add('open');
+  }
+  // Hàm ẩn modal Search (gở bỏ class open của Search)
+  function hideSearch() {
+    modalTK.classList.remove('open');
+  } 
+  // Lắng nghe hành vi click
+  searchTK.addEventListener('click', showSearch);
+  // Nghe hành vi click vào Search close
+  modalCloseTK.addEventListener('click', hideSearch)
+
+  modalTK.addEventListener('click', hideSearch)
+
+  modalContainerTK.addEventListener('click', function (event) {
+    event.stopPropagation()
+  })
+</script>
+<!-- End Sự Kiện JavaScript Tìm Kiếm -->
+
+
+
+<!-- Start Sự kiện JavaScript Phần ẩn con Mắt -->
+<script>
+  const inputEye = document.querySelector("#idpassword");
+  const eyeOpen = document.querySelector(".eye-open");
+  const eyeClose = document.querySelector(".eye-close");
+  eyeOpen.addEventListener("click", function() {
+    eyeOpen.classList.add("hidden");
+    eyeClose.classList.remove("hidden");
+    inputEye.setAttribute("type", "password");
+  });
+  eyeClose.addEventListener("click", function() {
+    eyeOpen.classList.remove("hidden");
+    eyeClose.classList.add("hidden");
+    inputEye.setAttribute("type", "text");
+  });
+
+</script>
+<!-- End Sự kiện JavaScript Phần ẩn con Mắt -->
+
+
+
+
+
+
+
+
+<!-- Start/ Asia (Châu Á)-->
+  <section class="Asia">
+      <div class="container">
+          <h2 id="One-artist-anchor" class="section-title">ASIA (Châu Á)</h2>
+          <div class="split">
+        
+              <a href="https://en.wikipedia.org/wiki/Vietnam" class="nicky">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.995hq_nN327XEAts7GqG-QAAAA&pid=Api&P=0&w=259&h=168" alt="VietNam" class="featured-img">
+                <p class="featured-details"><span>VietNam</span>&mdash; Việt Nam</p>
+              </a>
+
+              <a href="https://en.wikipedia.org/wiki/Cambodia" class="nicky">
+                  <img src="https://tse4.mm.bing.net/th?id=OIP.fzQeNKl7e9g_sq06JfpRqwHaEc&pid=Api&P=0&w=288&h=172" alt="" class="featured-img">
+                  <p class="featured-details"><span>Cambodia</span>&mdash; Cam-pu-chia</p>
+              </a>
+
+              <a href="https://en.wikipedia.org/wiki/Laos" class="nicky">
+                  <img src="https://tse1.mm.bing.net/th?id=OIP.2w-bY6IjQ5_RAc6DqAMmtwAAAA&pid=Api&P=0&w=279&h=186" alt="" class="featured-img">
+                  <p class="featured-details"><span>Laos</span>&mdash; Lào</p>
+              </a>
+
+              <a href="https://en.wikipedia.org/wiki/Indonesia" class="nicky">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.gr6odw1wxYkoBQsrFdRLLQAAAA&pid=Api&P=0&w=267&h=178" alt="" class="featured-img">
+                <p class="featured-details"><span>Indonesia</span>&mdash; Indonesia</p>
+              </a>
+
+              <a href="https://en.wikipedia.org/wiki/Malaysia" class="nicky">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.DA-PnZQNgy8a98JIZBlbSAHaE7&pid=Api&P=0&w=271&h=181" alt="" class="featured-img">
+                <p class="featured-details"><span>Malaysia</span>&mdash; Malaysia</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Myanmar" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.DSUb_pGkKtU-DwL0rTTZ3wAAAA&pid=Api&P=0&w=267&h=178" alt="" class="featured-img">
+              <p class="featured-details"><span>Myanmar</span>&mdash; Myanmar</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Philippines" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.Ih9iNyqAq8_Z4Bm-1nMaVgHaE_&pid=Api&P=0&w=277&h=186" alt="" class="featured-img">
+              <p class="featured-details"><span>Philippines</span>&mdash; Philippines</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Singapore" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.3zBgiFNqflVnzl3rARAulgHaE8&pid=Api&P=0&w=270&h=180" alt="" class="featured-img">
+              <p class="featured-details"><span>Singapore</span>&mdash; Singapore</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Thailand" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.eyH8tsPcnSHC_RaEpMY_BQHaE8&pid=Api&P=0&w=238&h=159" alt="" class="featured-img">
+              <p class="featured-details"><span>Thailand</span>&mdash; Thailand</p>
+             </a>
+
+             <a href="https://vi.wikipedia.org/wiki/%C4%90%C3%B4ng_Timor" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.pr21MbxYefdYgW-uj6W_zAHaE7&pid=Api&P=0&w=231&h=154" alt="" class="featured-img">
+              <p class="featured-details"><span>Timor-Leste</span>&mdash; Đông Ti-mo</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Brunei" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Gcq50mFoceUq6bHM0aC08gHaE8&pid=Api&P=0&w=244&h=163" alt="" class="featured-img">
+              <p class="featured-details"><span>Brunei Darussalam</span>&mdash; Brunây</p>
+             </a>
+             <!-- End / Asia (Châu Á)-->
+
+             <!-- Start Tây Á -->
+             <a href="https://en.wikipedia.org/wiki/Georgia_(country)" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.jPKTFUjq4R-HOpnFnUXQigHaE8&pid=Api&P=0&w=251&h=167" alt="" class="featured-img">
+              <p class="featured-details"><span>Georgia</span>&mdash; Georgia</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Iran" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP._QHg9Wno0DZmmMZHuri-lgHaE8&pid=Api&P=0&w=275&h=183" alt="" class="featured-img">
+              <p class="featured-details"><span>Iran</span>&mdash; Iran</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Israel" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.lLtT06cCtwIjfkr2raDamQHaFY&pid=Api&P=0&w=246&h=179" alt="" class="featured-img">
+              <p class="featured-details"><span>Israel</span>&mdash; Israel</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Jordan" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.JCr2OQodba-mD0EmaduPMgHaE7&pid=Api&P=0&w=261&h=174" alt="" class="featured-img">
+              <p class="featured-details"><span>Jordan</span>&mdash; Jordan</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Kuwait" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.M63ellXrO8gn3mZjaDm1eAHaEK&pid=Api&P=0&w=306&h=172" alt="" class="featured-img">
+              <p class="featured-details"><span>Kuwait</span>&mdash; Kuwait</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Lebanon" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Jz4MiTyPLQr287AzPcE80AHaEK&pid=Api&P=0&w=357&h=200" alt="" class="featured-img">
+              <p class="featured-details"><span>Lebanon</span>&mdash; Lebanese</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Saudi_Arabia" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.5TwPtWTa4-ASVr2bIy6XLwHaEK&pid=Api&P=0&w=310&h=174" alt="" class="featured-img">
+              <p class="featured-details"><span>Saudi Arabia</span>&mdash; Saudi Arabia</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Syria" class="nicky">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.9Pt9yZEi9G90nRXeaMZBNQHaEt&pid=Api&P=0&w=295&h=188" alt="" class="featured-img">
+              <p class="featured-details"><span>Syria</span>&mdash; Syrian</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Turkey" class="nicky">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.IGxbHsdSQgdTzGBclYLy8AHaD6&pid=Api&P=0&w=340&h=179" alt="" class="featured-img">
+              <p class="featured-details"><span>Turkey</span>&mdash; Turkish</p>
+             </a>
+
+             <a href="https://en.wikipedia.org/wiki/Yemen" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.Q12loZwaT3Ac41_1oTmt3QHaE8&pid=Api&P=0&w=237&h=158" alt="" class="featured-img">
+              <p class="featured-details"><span>Yemen</span>&mdash; Yemeni / Yemenite</p>
+             </a>
+             <!-- End Tây Á -->
+
+             <!-- Start Nam và Trung Á -->
+             <a href="#" class="nicky">
+               <img src="https://tse3.mm.bing.net/th?id=OIP.j-XuJuWU0go7lRDjXihvewHaFj&pid=Api&P=0&w=212&h=159" alt="" class="featured-img">
+               <p class="featured-details"><span>Afghanistan</span>&mdash; Afghan / Afghani</p>
+             </a>
+
+             <a href="#" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.E-F46FyKB6BWmOTmQqWFyQHaEc&pid=Api&P=0&w=310&h=186" alt="" class="featured-img">
+              <p class="featured-details"><span>Bangladesh</span>&mdash; Bangladeshi</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.uOfPIUGj9gNvu9LtfrWUqQHaE7&pid=Api&P=0&w=295&h=197" alt="" class="featured-img">
+              <p class="featured-details"><span>India</span>&mdash; India</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.Be1T8nvpwvuiJr6wITRIcgHaEU&pid=Api&P=0&w=265&h=155" alt="" class="featured-img">
+              <p class="featured-details"><span>Kazakhstan</span>&mdash; Kazakh / Kazakhstani</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.bC7BxewHbaKVB74AG0Q5CwHaEc&pid=Api&P=0&w=260&h=156" alt="" class="featured-img">
+              <p class="featured-details"><span>Nepal</span>&mdash; Nepalese / Nepali</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.x72A6-hD7bht4aTj-ADgDwHaD4&pid=Api&P=0&w=312&h=164" alt="" class="featured-img">
+              <p class="featured-details"><span>Pakistan</span>&mdash; Pakistani</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.sRGIrflsv-sV5jB7OgfLOAHaEc&pid=Api&P=0&w=287&h=172" alt="" class="featured-img">
+              <p class="featured-details"><span>Sri Lanka</span>&mdash; Sri Lankan</p>
+            </a>
+             <!-- End Nam and Trung Á -->
+
+             <!-- Start Đông Á -->
+             <a href="#" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.MNYTWVyHQfHTEcPJstUExgHaE2&pid=Api&P=0&w=277&h=181" alt="" class="featured-img">
+              <p class="featured-details"><span>China</span>&mdash; Chinese</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.iXJ9PSIiahU7pUC9mFz8rQHaE8&pid=Api&P=0&w=287&h=191" alt="" class="featured-img">
+              <p class="featured-details"><span>Japan</span>&mdash; Japanese</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.HqNIlRkY0vJC-VetXxZT_AHaE8&pid=Api&P=0&w=263&h=175" alt="" class="featured-img">
+              <p class="featured-details"><span>Mongolia</span>&mdash; Mongolian</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.0N2AtyiejT2F4lRviwBnvgHaE7&pid=Api&P=0&w=264&h=175" alt="" class="featured-img">
+              <p class="featured-details"><span>North Korea</span>&mdash; North Korean</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.fAvWy4FUzclUi9W91NnI4wHaEK&pid=Api&P=0&w=312&h=175" alt="" class="featured-img">
+              <p class="featured-details"><span>South Korea</span>&mdash; South Korean</p>
+            </a>
+
+            <a href="#" class="nicky">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.BqdicBeN5JBFKj7gsZiSvQHaEK&pid=Api&P=0&w=324&h=182" alt="" class="featured-img">
+              <p class="featured-details"><span>Taiwan</span>&mdash; Taiwanese</p>
+            </a>
+            <!-- End Đông Á -->
+          </div>
+      </div>
+  </section>
+ <!-- End / Asia (Châu Á)-->
+
+
+
+  <!-- Start / Africa (Châu Phi) -->
+  <section class="Africa"> 
+      <div class="container">
+          <h2 id="Two-release-anchor" class="section-title">AFRICA (Châu Phi)</h2>
+      <div class="split">
+        <!-- Start Bắc and Tây Phi -->
+        <a href="#" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.iWFilflQiBES_L_4-i9iaQHaE8&pid=Api&P=0&w=231&h=154" alt="" class="featured-img">
+          <p class="featured-details"><span>Algeria</span>&mdash; Algerian</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.8ZakKa3Ryy9CKrxUSoSRfgHaEc&pid=Api&P=0&w=267&h=160" alt="" class="featured-img">
+          <p class="featured-details"><span>Egypty</span>&mdash; Egyptian</p>
+        </a>
+
+         <a href="#" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.9caFAkMSW7C00qzSPjmHXQHaE8&pid=Api&P=0&w=262&h=175" alt="" class="featured-img">
+          <p class="featured-details"><span>Ghana</span>&mdash; Ghanaian</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.nOu08lLXpXHtGBtz8ivlnwHaEK&pid=Api&P=0&w=320&h=180" alt="" class="featured-img">
+          <p class="featured-details"><span>Ivory Coast</span>&mdash; Ivorian</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.Xjn8wLPynZ3aE2FDPA6g8QHaEh&pid=Api&P=0&w=329&h=201" alt="" class="featured-img">
+          <p class="featured-details"><span>Libya</span>&mdash; Libyan</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.4ROmbBt8sSqEq3LP2KU0qQHaE8&pid=Api&P=0&w=290&h=193" alt="" class="featured-img">
+          <p class="featured-details"><span>Morocco</span>&mdash; Morocco</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.09BJYC77tFmj2tj4Wnc52AHaDt&pid=Api&P=0&w=369&h=184" alt="" class="featured-img">
+          <p class="featured-details"><span>Nigeria</span>&mdash; Nigeria</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.YEAfTepsHMLrynb-Nb8ieAHaE3&pid=Api&P=0&w=268&h=176" alt="" class="featured-img">
+          <p class="featured-details"><span>Tunisia</span>&mdash; Tunisia</p>
+        </a>
+        <!-- End Bắc and Tây Phi -->
+
+        <!-- Start Đông Phi -->
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.0lPuNWDXglWPJbp02PIrwAHaDt&pid=Api&P=0&w=314&h=157" alt="" class="featured-img">
+          <p class="featured-details"><span>Ethiopia</span>&mdash; Ethiopian</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.GLAVAh4MgPDrAs30_Zh3KAHaEc&pid=Api&P=0&w=287&h=172" alt="" class="featured-img">
+          <p class="featured-details"><span>Kenya</span>&mdash; Kenyan</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.QJOs-hS-7Ob5MdMMIlH4WQHaE8&pid=Api&P=0&w=247&h=164" alt="" class="featured-img">
+          <p class="featured-details"><span>Somalia</span>&mdash; Somalian</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.6pMBd3EwsrYIdwEaXqwM8wHaEK&pid=Api&P=0&w=282&h=158" alt="" class="featured-img">
+          <p class="featured-details"><span>Sudan</span>&mdash; Sudanese</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.dAMr0L087JxB2aPAKwxDEwHaE8&pid=Api&P=0&w=266&h=177" alt="" class="featured-img">
+          <p class="featured-details"><span>Tanzania</span>&mdash; Tanzania</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.inPwuL8Wo3ZRXYAyNUJ5fAHaE8&pid=Api&P=0&w=266&h=177" alt="" class="featured-img">
+          <p class="featured-details"><span>Uganda</span>&mdash; Ugandan</p>
+        </a>
+        <!-- End Đông Phi -->
+
+        <!--  Start Nam and Trung Phi-->
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.Xn9LeZkmMe7qqnEl49P0dAHaE8&pid=Api&P=0&w=290&h=193" alt="" class="featured-img">
+          <p class="featured-details"><span>Botswana</span>&mdash; Botswanan</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.explicit.bing.net/th?id=OIP.QXcPq_uZ2lb8FUjhRwStpAHaE7&pid=Api&P=0&w=289&h=192" alt="" class="featured-img">
+          <p class="featured-details"><span>Angola </span>&mdash;Angolan </p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="" alt="" class="featured-img">
+          <p class="featured-details"><span>Democratic Republic of the Congo</span>&mdash; Congolese</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.Rg_rwhEMA1zuyfstiP9GrQHaE8&pid=Api&P=0&w=285&h=190" alt="" class="featured-img">
+          <p class="featured-details"><span> Madagascar</span>&mdash; Malagasy</p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.FL-HBMB-KKZhuelk1YfPWAHaE8&pid=Api&P=0&w=267&h=178" alt="" class="featured-img">
+          <p class="featured-details"><span>Mozambique </span>&mdash;Mozambican </p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.2zRAb-pcaFYiQu2zD0tmmQHaE8&pid=Api&P=0&w=248&h=165" alt="" class="featured-img">
+          <p class="featured-details"><span>Namibia </span>&mdash;Namibian </p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.fxEf4ZzA-GlNbsayFV8dnQHaEo&pid=Api&P=0&w=256&h=160" alt="" class="featured-img">
+          <p class="featured-details"><span>South Africa </span>&mdash;South African </p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.k4gvwLdh6i1aim_X5nAuwgHaE8&pid=Api&P=0&w=284&h=189" alt="" class="featured-img">
+          <p class="featured-details"><span>Zambia </span>&mdash;Zambian </p>
+        </a>
+
+        <a href="#" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.Vw_aMaVULNpOlgHtP5IY4AHaDt&pid=Api&P=0&w=331&h=165" alt="" class="featured-img">
+          <p class="featured-details"><span>Zimbabwe </span>&mdash;Zimbabwean </p>
+        </a>
+        <!-- End Nam and Trung Phi -->
+
+        <!-- Mẫu bên dưới để có việc khi cần đến -->
+          <!-- <article class="artist spacing">
+              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band9.jpg" alt="" class="artist-img">
+              <h3 class="artist-title">Mellow Gazelle</h3>
+              <h4>The Usual Good Times <br><span class="date">March 18, 2021</span> </h4>
+              <p class="artist-description">Mellow Gazelle paused their hiatus to deliver the etheral soundtrack to a new animated movie. The album hsa a distinctly laidback sound. </p>
+              <a href="#" class="btn">Buy Album!</a>
+          </article> -->
+
+      </div>
+      </div>
+  </section>
+  <!-- End/ Africa (Châu Á)-->
+
+
+
+ <!--Start SOUTH AMERICA (Nam My) -->
+<section class="SouthAmerica">
+  <div class="container">
+      <h2 id="Three-artist-anchor" class="section-title">SOUTH AMERICA (Nam Mỹ)</h2>
+      <div class="split">
+
+        <a href="https://vi.wikipedia.org/wiki/Argentina" class="nicky"> 
+          <img src="https://tse3.mm.bing.net/th?id=OIP.ZXI95g5D7owTAijk4cfq8wHaE8&pid=Api&P=0&w=265&h=177" alt="" class="featured-img">
+          <p class="featured-details"><span> Argentina </span>&mdash; Argentine / Argentinian</p>
+        </a>
+
+        <a href="https://vi.wikipedia.org/wiki/Bolivia" class="nicky"> 
+          <img src="https://tse1.mm.bing.net/th?id=OIP.WgJlGI_wDQc9PAqK5GHVHwHaFD&pid=Api&P=0&w=245&h=167" alt="" class="featured-img">
+          <p class="featured-details"><span> Bolivia</span>&mdash; Bolivian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Brazil" class="nicky"> 
+          <img src="https://tse3.explicit.bing.net/th?id=OIP.gj9OwNDVYgTDzajqiy6i6gHaFG&pid=Api&P=0&w=255&h=176" alt="" class="featured-img">
+          <p class="featured-details"><span>Brazil </span>&mdash;Brazilian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Chile" class="nicky"> 
+          <img src="https://tse2.mm.bing.net/th?id=OIP.byZ-1b_SzSdxCyUOAeNchQHaEK&pid=Api&P=0&w=277&h=155" alt="" class="featured-img">
+          <p class="featured-details"><span>Chile </span>&mdash;Chilean </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Colombia" class="nicky"> 
+          <img src="https://tse1.mm.bing.net/th?id=OIP.mzuHJcf3TUf8TqjuPBp9bgHaFj&pid=Api&P=0&w=269&h=202" alt="" class="featured-img">
+          <p class="featured-details"><span>Colombia </span>&mdash;Colombian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Ecuador" class="nicky"> 
+          <img src="https://tse3.mm.bing.net/th?id=OIP.966SlHTrnMbP6EspaABL8AHaE8&pid=Api&P=0&w=267&h=178" alt="" class="featured-img">
+          <p class="featured-details"><span>Ecuador </span>&mdash;Ecuadorian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Paraguay" class="nicky"> 
+          <img src="https://tse2.mm.bing.net/th?id=OIP.lKwXSHkU4A5m_EuSITrUqgHaEE&pid=Api&P=0&w=341&h=187" alt="" class="featured-img">
+          <p class="featured-details"><span>Paraguay </span>&mdash;Paraguayan </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Peru" class="nicky"> 
+          <img src="https://tse3.mm.bing.net/th?id=OIP.PLChd8HtcnntOCpTqvpjiQHaEK&pid=Api&P=0&w=272&h=153" alt="" class="featured-img">
+          <p class="featured-details"><span>Peru </span>&mdash;Peruvian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Uruguay" class="nicky"> 
+          <img src="https://tse1.mm.bing.net/th?id=OIP.C97FLdj9h9tYKtRmlSv8jgHaE8&pid=Api&P=0&w=250&h=166" alt="" class="featured-img">
+          <p class="featured-details"><span>Uruguay </span>&mdash;Uruguayan </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Venezuela" class="nicky"> 
+          <img src="https://tse4.mm.bing.net/th?id=OIP.46VBB0cgWbVsjrfY0cIDqgHaE8&pid=Api&P=0&w=286&h=191" alt="" class="featured-img">
+          <p class="featured-details"><span>Venezuela </span>&mdash;Venezuelan </p>
+        </a>
+
+      </div>  
+  </div>
+</section>
+ <!-- End SOUTH AMERICA (Nam My) -->
+
+
+
+ <!-- Start AUSTRALIA -->
+<section class="Australia">
+  <div class="container">
+      <h2 id="Four-artist-anchor" class="section-title">AUSTRALIA (Châu Úc)</h2>
+      <div class="split">
+
+        <a href="https://en.wikipedia.org/wiki/Australia" class="nicky"> 
+          <img src="https://tse3.mm.bing.net/th?id=OIP.wa7i3fLFuRc7C9v_BrFBWwHaFP&pid=Api&P=0&w=233&h=164" alt="" class="featured-img">
+          <p class="featured-details"><span>Australia </span>&mdash;Australian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Fiji" class="nicky"> 
+          <img src="https://tse2.mm.bing.net/th?id=OIP.N_Oaz2wEdw7Rf4cDn-SKSAHaEd&pid=Api&P=0&w=285&h=171" alt="" class="featured-img">
+          <p class="featured-details"><span>Fiji </span>&mdash;Fijian </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/New_Zealand" class="nicky"> 
+          <img src="https://tse4.mm.bing.net/th?id=OIP.bXbETbez1NXYxb0x7Ci5OQHaEc&pid=Api&P=0&w=287&h=172" alt="" class="featured-img">
+          <p class="featured-details"><span>New Zealand </span>&mdash;New Zealand </p>
+        </a>
+
+      </div>
+  </div>
+</section>
+ <!-- End AUSTRALIA -->
+
+
+
+
+ <!-- Start Europe(Châu Âu) -->
+<section class="Europe">
+  <div class="container">
+      <h2 id="Five-artist-anchor" class="section-title">EUROPE (Châu Mỹ)</h2>
+      <div class="split">
+
+        <!-- Start North  Europe (Bắc Au)-->
+          <a href="https://en.wikipedia.org/wiki/Denmark" class="nicky">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.unebLKRMw7hGEK6c1pGTNQHaFP&pid=Api&P=0&w=244&h=172" alt="" class="featured-img">
+            <p class="featured-details"><span>Denmark </span>&mdash;Danish (Đan Mạch)</p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/England" class="nicky">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.vTBG9OZ_gg47OPh0WK1FHQHaE8&pid=Api&P=0&w=267&h=178" alt="" class="featured-img">
+            <p class="featured-details"><span>England </span>&mdash;British / English </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Estonia" class="nicky">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.aFiSdm9Rues00yJuzWElrAHaEt&pid=Api&P=0&w=245&h=156" alt="" class="featured-img">
+            <p class="featured-details"><span>Estonia </span>&mdash;Estonian </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Finland" class="nicky">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ynTMA8OS6DAAExy2KARiCQHaEW&pid=Api&P=0&w=265&h=155" alt="" class="featured-img">
+            <p class="featured-details"><span>Finland </span>&mdash;Finnish (Phần Lan) </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Iceland" class="nicky">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.nOmGvnvHBIhym5SOcN2MtQHaFV&pid=Api&P=0&w=225&h=162" alt="" class="featured-img">
+            <p class="featured-details"><span>Iceland </span>&mdash;Icelandic </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Ireland" class="nicky">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.Rahqba8l4sLGCsGnBpgavAHaE8&pid=Api&P=0&w=253&h=168" alt="" class="featured-img">
+            <p class="featured-details"><span>Ireland </span>&mdash;Irish </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Latvia" class="nicky">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.axwseOJKn8GBVXmTx_3ZVgHaDt&pid=Api&P=0&w=342&h=171" alt="" class="featured-img">
+            <p class="featured-details"><span>Latvia </span>&mdash;Latvian </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Lithuania" class="nicky">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.grQLxtOO-Wc98MwMkpJDVgHaEc&pid=Api&P=0&w=287&h=172" alt="" class="featured-img">
+            <p class="featured-details"><span>Lithuania </span>&mdash;Lithuanian </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Northern_Ireland" class="nicky">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.bsGvd5XGKxiZ7_Li4-XHLAHaEc&pid=Api&P=0&w=297&h=178" alt="" class="featured-img">
+            <p class="featured-details"><span>Northern Ireland </span>&mdash;British / Northern Irish </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Norway" class="nicky">
+            <img src="https://tse4.mm.bing.net/th?id=OIP._P8nKIDgFSQnJDkoMJTcuAHaEc&pid=Api&P=0&w=310&h=186" alt="" class="featured-img">
+            <p class="featured-details"><span>Norway </span>&mdash;Norwegian (Na Uy.) </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Scotland" class="nicky">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.CDzhB8sJ5Kv_oQN3dFyk2wHaEp&pid=Api&P=0&w=250&h=157" alt="" class="featured-img">
+            <p class="featured-details"><span>Scotland </span>&mdash;British / Scottish </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Sweden" class="nicky">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.vsN-jEJ_YlUfQCR5eNUCFAHaEK&pid=Api&P=0&w=314&h=176" alt="" class="featured-img">
+            <p class="featured-details"><span>Sweden </span>&mdash;Swedish (Thụy Điển) </p>
+          </a>
+
+          <a href="https://en.wikipedia.org/wiki/Wales" class="nicky">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Ohw3yw98znG9g_RcesuRagHaE7&pid=Api&P=0&w=270&h=179" alt="" class="featured-img">
+            <p class="featured-details"><span>Wales </span>&mdash;British / Welsh </p>
+          </a>
+        <!-- End North Europe(Bắc Au) -->
+
+        <!-- Start Tay Au -->
+        <a href="https://en.wikipedia.org/wiki/Austria" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.AYywMTloh7t0jJX_MvpragHaE8&pid=Api&P=0&w=263&h=175" alt="" class="featured-img">
+          <p class="featured-details"><span>Austria </span>&mdash;Austrian (Áo)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Belgium" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.SWFLyCAE-2-ZVsjVTdoWWQHaE7&pid=Api&P=0&w=293&h=195" alt="" class="featured-img">
+          <p class="featured-details"><span>Belgium </span>&mdash;Belgian (Bỉ)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/France" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.WYn6vpTRc_VAVVJ8-0iRbQEsDH&pid=Api&P=0&w=250&h=167" alt="" class="featured-img">
+          <p class="featured-details"><span>France </span>&mdash;French (Pháp)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Germany" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.wXetDshuGEJZC2KZxUGK0gHaEc&pid=Api&P=0&w=306&h=183" alt="" class="featured-img">
+          <p class="featured-details"><span>Germany </span>&mdash;German (Đức)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Netherlands" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.Tm4st9Q4eZQDpi72csBtJgHaE8&pid=Api&P=0&w=285&h=190" alt="" class="featured-img">
+          <p class="featured-details"><span>Netherlands </span>&mdash;Dutch (Hà Lan)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Switzerland" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.Zxmakg7_p6bmyP4iyOlq_AHaEo&pid=Api&P=0&w=323&h=202" alt="" class="featured-img">
+          <p class="featured-details"><span>Switzerland </span>&mdash;Swiss (Thụy Sĩ)</p>
+        </a>
+        <!-- End Tay Au -->
+
+        <!-- Start Nam Âu -->
+        <a href="https://en.wikipedia.org/wiki/Albania" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.BZhtHwldzhLKsofPcGolWAHaEx&pid=Api&P=0&w=276&h=178" alt="" class="featured-img">
+          <p class="featured-details"><span>Albania </span>&mdash;Albanian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Croatia" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.s1bhlTXujhnv4koPEBdn9AHaDt&pid=Api&P=0&w=351&h=176" alt="" class="featured-img">
+          <p class="featured-details"><span>Croatia </span>&mdash;Croatian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Cyprus" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.2V_4Uni3F4LxfX6ltDHDuwHaEc&pid=Api&P=0&w=328&h=197" alt="" class="featured-img">
+          <p class="featured-details"><span>Cyprus </span>&mdash;Cypriot</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Greece" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.SB5ZbwcB14mYdjSKhPVikwHaE8&pid=Api&P=0&w=278&h=185" alt="" class="featured-img">
+          <p class="featured-details"><span>Greece </span>&mdash;Greek (Hy Lạp) </p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Italy" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.NKQAtXMDSm9smeg8V9euqwHaE8&pid=Api&P=0&w=273&h=182" alt="" class="featured-img">
+          <p class="featured-details"><span>Italy </span>&mdash;Italian (Ý)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Portugal" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.8KSSlmJDGxwqRSuNYKMPMgHaE8&pid=Api&P=0&w=260&h=173" alt="" class="featured-img">
+          <p class="featured-details"><span>Portugal </span>&mdash;Portuguese (Bồ Đào Nha)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Serbia" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.dAjVmIAthS7wQnZnYdncwQHaE8&pid=Api&P=0&w=283&h=188" alt="" class="featured-img">
+          <p class="featured-details"><span>Serbia </span>&mdash;Serbian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Slovenia" class="nicky">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/188px-Flag_of_Slovenia.svg.png" alt="" class="featured-img">
+          <p class="featured-details"><span>Slovenia </span>&mdash;Slovenian / Slovene</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Spain" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.cb4rgVgziyZK3938C4HtOgHaE7&pid=Api&P=0&w=254&h=169" alt="" class="featured-img">
+          <p class="featured-details"><span>Spain </span>&mdash;Spanish (Tây Ban Nha)</p>
+        </a>
+        <!-- End Nam Âu -->
+
+        <!-- Start Đông Âu -->
+        <a href="https://en.wikipedia.org/wiki/Belarus" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.sbUCZn0atTF91LNFmxbmmgHaEP&pid=Api&P=0&w=285&h=163" alt="" class="featured-img">
+          <p class="featured-details"><span>Belarus </span>&mdash;Belarusian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Bulgaria" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.rEthmxA4l9O9bwX3xk-WLQHaEK&pid=Api&P=0&w=321&h=180" alt="" class="featured-img">
+          <p class="featured-details"><span>Bulgaria </span>&mdash;Bulgarian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Czech_Republic" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.NDDpd4U2o3dGJDqaJhtSOwHaE8&pid=Api&P=0&w=235&h=156" alt="" class="featured-img">
+          <p class="featured-details"><span>Czech Republic </span>&mdash;Czech (nước Cộng hòa Séc)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Hungary" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.vwqpYoCGjxZ3n-4tly9YugHaDt&pid=Api&P=0&w=344&h=172" alt="" class="featured-img">
+          <p class="featured-details"><span>Hungary </span>&mdash;Hungarian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Poland" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.621TTS7_KkQql0Hieslf8QHaEo&pid=Api&P=0&w=300&h=187" alt="" class="featured-img">
+          <p class="featured-details"><span>Poland </span>&mdash;Polish (Ba Lan)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Romania" class="nicky">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.Gsy04uBPPGr8x8eQTFZ1UAHaE8&pid=Api&P=0&w=290&h=193" alt="" class="featured-img">
+          <p class="featured-details"><span>Romania </span>&mdash;Romanian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Russia" class="nicky">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.LFGiwRx7E9HB6GdxSOX_3QHaE7&pid=Api&P=0&w=281&h=187" alt="" class="featured-img">
+          <p class="featured-details"><span>Russia </span>&mdash;Russian (Nga)</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Slovakia" class="nicky">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.GiHWI6vFLGs4u_hbKjnh0QHaEK&pid=Api&P=0&w=338&h=190" alt="" class="featured-img">
+          <p class="featured-details"><span>Slovakia </span>&mdash;Slovak / Slovakian</p>
+        </a>
+
+        <a href="https://en.wikipedia.org/wiki/Ukraine" class="nicky">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.HARh8dJ7PLJI9d0-9At4vgHaE8&pid=Api&P=0&w=273&h=182" alt="" class="featured-img">
+          <p class="featured-details"><span>Ukraine </span>&mdash;Ukrainian</p>
+        </a>
+        <!-- End Đông Âu -->
+
+      </div>
+  </div>
+ </section>
+
+<!-- End Europe(Châu Âu) -->
+<section class="NorthAmerica">
+  <div class="container">
+    <h2 id="Six-artist-anchor" class="section-title">NORTH AMERICA (Bắc Mỹ)</h2>
+    <div class="split">
+
+      <a href="https://en.wikipedia.org/wiki/Canada" class="nicky">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.HHOKl0wx70n3CsqKlTR8JAHaEA&pid=Api&P=0&w=352&h=190" alt="" class="featured-img">
+        <p class="featured-details"><span>Canada </span>&mdash;Canadian</p>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/Mexico" class="nicky">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.oey8nobnQD58zZaumT11YgHaEP&pid=Api&P=0&w=320&h=183" alt="" class="featured-img">
+        <p class="featured-details"><span>Mexico </span>&mdash;Mexican</p>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/United_States" class="nicky">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.YPruZHuOOLXhEQWr7g83kAHaEc&pid=Api&P=0&w=292&h=175" alt="" class="featured-img">
+        <p class="featured-details"><span>United States </span>&mdash;American (Mỹ)</p>
+      </a>
+
+      <!--Start Trung Mỹ và Ca-ri-bê-->
+      <a href="https://en.wikipedia.org/wiki/Cuba" class="nicky">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.CmFbaxiGaj2XRyuc7sDyCQHaEK&pid=Api&P=0&w=352&h=198" alt="" class="featured-img">
+        <p class="featured-details"><span>Cuba </span>&mdash;Cuban</p>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/Guatemala" class="nicky">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.r6BPqKxAqBzyTX63BW3GzwHaEo&pid=Api&P=0&w=300&h=187" alt="" class="featured-img">
+        <p class="featured-details"><span>Guatemala </span>&mdash;Guatemalan</p>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/Jamaica" class="nicky">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.unebLKRMw7hGEK6c1pGTNQHaFP&pid=Api&P=0&w=244&h=172" alt="" class="featured-img">
+        <p class="featured-details"><span>Jamaica </span>&mdash;Jamaican</p>
+      </a>
+      <!-- End Trung Mỹ và Ca-ri-bê -->
+    </div>
+  </div>
+</section>
+
+<!-- Start Phan footer -->
+<footer class="footer-end">
+  <div class="footer-content">
+    <h3 class="h2">Nicky Hello</h2>
+    <p>There's no such thing as a freelunch!</p>
+    <ul class="socials">
+      <li><a href="#"><i class="ti-facebook"></i></a></li>
+      <li><a href="#"><i class="ti-instagram"></i></a></li>
+      <li><a href="#"><i class="ti-linkedin"></i></a></li>
+      <li><a href="#"><i class="ti-youtube"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-buttom">
+      <p>copyright &copy; 2022 Nicky. designed by <span>Nhat Huynh</span></p>
+  </div>
+</footer>
+<!-- End Footer Trang Website -->
+
+</main>
+<!-- Start Phan footer -->
+<footer class="footer-end">
+  <div class="footer-content">
+    <h3 class="h2">Nicky Hello</h2>
+      <p>There's no such thing as a freelunch!</p>
+    <ul class="socials">
+      <li><a href="#"><i class="ti-facebook"></i></a></li>
+      <li><a href="#"><i class="ti-instagram"></i></a></li>
+      <li><a href="#"><i class="ti-linkedin"></i></a></li>
+      <li><a href="#"><i class="ti-youtube"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-buttom">
+      <p>copyright &copy; 2022 Nicky. designed by <span>Nhat Huynh</span></p>
+  </div>
+
+   
+</footer>
+<!-- End Footer Trang Website -->
+
+<!-- Phần Cuối Trang Website -->
+<!-- <footer class="footer-end">
+ <div class="content-footer">
+  <div class="footer_row">
+    <div class="footer-col">
+      <h3>Company Nicky</h3
+>
+      <ul>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">our services</a></li>
+        <li><a href="#">affiliate program</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+     <h3>Get Help</h3>
+     <ul>
+       <li><a href="#">order status</a></li>
+       <li><a href="#">shipping</a></li>
+       <li><a href="#">payment options</a></li>
+
+     </ul>
+   </div>
+   <div class="footer-col">
+     <h3>Online Web</h3>
+     <ul>
+       <li><a href="#">Nicky A</a></li>
+       <li><a href="#">Nicky B</a></li>
+       <li><a href="#">Nicky C</a></li>
+
+     </ul>
+   </div>
+   <div class="footer-col">
+     <h3>Follow Us</h3>
+     <div class="social-link">
+       <a href="#"><i class="ti-facebook"></i></a>
+       <a href="#"><i class="ti-instagram"></i></a>
+       <a href="#"><i class="ti-linkedin"></i></a>
+       <a href="#"><i class="ti-youtube"></i></a>
+     </div>
+   </div>
+  </div>
+ </div>      
+</footer> -->
+
+<!-- Start NORTH AMERICA -->
+
+<!-- End NORTH AMERICA -->
+
+
+</html>
+
+<!-- Website tham khao -->
+<!-- https://www.w3schools.com/w3css/tryw3css_templates_band.htm# -->
+<!-- <i class="ti-facebook"></i>
+                    Facebook    
+ <i class="ti-instagram"></i>
+                    Instagram
+                    <i class="ti-linkedin"></i>
+                    Linkedin
+                    <i class="ti-youtube"></i>
+                    Youtube
+                  </a> -->
+
+                  <!-- .NavBar_logo__Rgo-5 img {
+                    border-radius: 6px;
+                    flex-shrink: 0;
+                    height: 38px;
+                    object-fit: contain;
+                    width: 38px;
+                } -->
